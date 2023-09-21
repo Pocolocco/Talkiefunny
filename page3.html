@@ -82,13 +82,63 @@
 			location.href="page2.html";
 		}  
       
-		<p>Play Audio</p>
+		{<p>Play Audio</p>
 
      <div class="action-btns">
   <button4 class="btn play">Play</button4>
   <button4 class="btn pause">Pause</button4>
 </div>
 
+<style> 
+  button {
+	  border}: none;
+	  color: white;
+	  padding: 25px 50px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 40px 20px;
+	  transition-duration: .5s;
+	  cursor: pointer;
+ 	  background-color: #da7289;
+	  {color}:#87104b;
+}
+
+	  
+  button:hover {
+	  {color}: #87104b;
+	  background-color: #87104b;
+  }
+	body {
+	background}: linear-gradient(-45deg, #fc5a8d, #87104b);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+	</style>
+  </head>
+  <body>
+	  <button onclick="page3()">Litterallythispage</button>
+
+<script>
+
+function page2() {
+	location.href="page3.html";
+}
+</script>
       </p>
 </body>
 </html>
